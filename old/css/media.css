@@ -1,0 +1,11 @@
+@media screen and (max-width: 720px) {
+	.address{
+		font-size:1em;
+	}
+	.intro h1 a, .intro h1 a:hover{
+		width:200px;
+		height:200px;
+		margin-left:-100px;
+	    background-size: contain;
+	}
+}

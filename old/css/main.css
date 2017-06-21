@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Porter Bold';
+    src: url("../font/PorterBold.otf");
+}
+@font-face {
+    font-family: 'Porter Medium';
+    src: url("../font/PorterMedium.otf");
+}
+body{ 
+	font-family:'Porter Medium';
+}
+.grid-container{ max-width:960px; }
+.body{
+	position:relative;
+	width:100%;
+	height:100%;
+	float:left;
+}
+.address{
+	position:absolute;
+	color:#fff;
+	font-size:1.5em;
+	bottom:0;
+	right:0; 
+	line-height:2em;
+	text-align:center;
+	background:#e9322d;
+}
+.address p{ padding:0; margin:0; }
+.intro {
+	position:absolute;
+	left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+}
+.intro h1 a{
+	width:300px;
+	height:300px;
+	position:relative;
+	left: 50%;
+    margin-left:-150px;
+	background:url("../images/obiady-domowe.jpg") no-repeat;
+	float:left;
+	font-size:0;
+	-webkit-transition-timing-function: ease-in-out;
+}
+.intro h1 a:hover{
+	background:url("../images/obiady-domowe-rewers.jpg") no-repeat;
+}

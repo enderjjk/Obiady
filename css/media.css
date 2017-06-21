@@ -1,0 +1,20 @@
+@media screen and (max-width: 720px) {
+	.address{
+		font-size:0.75em;
+		position:relative;
+		margin-top:20px;
+	}
+	.content-index, .content-dla-firm{
+		position:relative;
+		left:0;
+		top:0;
+		margin-top:20px;
+	}
+	.content h1{ font-size:1.1em; }
+	.content p{	font-size:0.9em; }
+	
+	.content-index, .content-dla-firm{ margin-top:140px; }
+	.content-index .content{ height:auto; }
+	.content-dla-firm .content{	height:auto; }
+	
+}
